@@ -7,14 +7,11 @@ library(DT)
 
 
 ### make a json file for github connection
-# setwd("M:\\WMS\\CTU\\Statisticians\\Helen Parsons\\WASTED\\Analysis")
 # library("rsconnect")
 # rsconnect::writeManifest()
 
 
 #### 1. Load model
-
-setwd("M:\\WMS\\CTU\\Statisticians\\Helen Parsons\\WASTED\\Analysis")
 fixed_model <- readRDS("WASTED_GRM.rds") # <-- in the same folder as app.R
 
 # # Extract item names expected by the model
